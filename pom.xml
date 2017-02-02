@@ -33,7 +33,7 @@ THE SOFTWARE.
 
     <artifactId>tessy-xunit</artifactId>
     <packaging>hpi</packaging>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1.1-SNAPSHOT</version>
     <name>Tessy xUnit Plugin</name>
     <!-- TODO publish project
     <url>http://wiki.jenkins-ci.org/display/JENKINS/Tessy+Plugin</url>
@@ -53,7 +53,16 @@ THE SOFTWARE.
             <email>lsadau@carneios.de</email>
             <timezone>+1</timezone>
             <roles>
-                <role>Project developer</role>
+                <role>Original project developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <id>wendehals</id>
+            <name>Lothar Wendehals</name>
+            <email>lothar.wendehals@itemis.de</email>
+            <timezone>+1</timezone>
+            <roles>
+                <role>Bug fixing</role>
             </roles>
         </developer>
     </developers>
@@ -66,8 +75,8 @@ THE SOFTWARE.
     </properties>
 
     <scm>
-        <connection>scm:git:https://github.com/carneios/tessy-xunit-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:carneios/tessy-xunit-plugin</developerConnection>
+        <connection>scm:git:https://github.com/wendehals/tessy-xunit-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:wendehals/tessy-xunit-plugin</developerConnection>
         <tag>HEAD</tag>
     </scm>
 

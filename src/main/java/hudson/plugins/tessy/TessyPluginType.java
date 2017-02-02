@@ -23,18 +23,17 @@
 
 package hudson.plugins.tessy;
 
-import hudson.Extension;
-
 import org.jenkinsci.lib.dtkit.descriptor.TestTypeDescriptor;
 import org.jenkinsci.lib.dtkit.type.TestType;
 import org.kohsuke.stapler.DataBoundConstructor;
 
+import hudson.Extension;
+
 public class TessyPluginType extends TestType {
 
    @DataBoundConstructor
-   public TessyPluginType(final String pattern, final boolean faildedIfNotNew, final boolean deleteOutputFiles, final boolean stopProcessingIfError)
-   {
-      super(pattern, faildedIfNotNew, deleteOutputFiles, stopProcessingIfError);
+   public TessyPluginType(final String pattern, final boolean skipNoTestFiles, final boolean failIfNotNew, final boolean deleteOutputFiles, final boolean stopProcessingIfError) {
+      super(pattern, skipNoTestFiles, failIfNotNew, deleteOutputFiles, stopProcessingIfError);
    }
 
    @Override
