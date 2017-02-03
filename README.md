@@ -30,3 +30,5 @@ For manual testing there is a jenkins job configuration saved in this project. T
     mvn hpi:run
 and goto 
     http://localhost:8080/jenkins/job/Publish%20Internal%20Tests/
+
+[![Build Status](https://travis-ci.org/wendehals/arduino_sct_tools.svg?branch=master)](https://travis-ci.org/wendehals/tessy-xunit-plugin)
